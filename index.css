@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    background-color: white;
+    max-width: 600px;
+    margin: 150px auto;
+    border-radius: 5px;
+   
+}
+
+.firstone{
+    padding: 20px;
+    height: 200px;
+}
+
+.kids{
+    display:flex;
+    max-width: 600px;
+    height: 290px;
+    
+}
+
+.kids p{
+    font-size: small;
+}
+
+.child1{
+    background-color: hsl(179, 62%, 43%);
+    flex-grow:1;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+}
+
+.child2{
+    background-color: #4ABEBD;
+    flex-grow: 1;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+}
+
+span{
+    font-size: small;
+    color: hsl(206, 47%, 80%);
+}
+
+button{
+    padding: 10px 72px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color:hsl(71, 73%, 54%) ;
+    font-size: medium;
+    cursor: pointer;
+}
+
+h4{
+    font-size: x-large;
+    color: hsl(179, 62%, 43%);
+}
+
+h5{
+    font-size: medium;
+    color: hsl(71, 73%, 54%);
+}
+
+p{
+    color: hsl(204, 43%, 93%);
+    font-style: normal;
+}
+
+h2{
+    color: white;
+}
+
+.heading2, .heading3{
+    color:white;
+}
